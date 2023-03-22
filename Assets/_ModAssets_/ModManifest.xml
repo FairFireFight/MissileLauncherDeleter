@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="bec288ae-f17f-40b5-a207-5ad88266008b">
+  <Mod name="Missile Launcher Remover" author="FairFireFight" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="2022-08-15T14:19:25.8941757Z" apiVersion="1.0.0.0" description="Tired of those annoying Missile Launchers At Snowstone? Me too.">
+    <Steam title="" visibility="Public" previewPath="" language="English" tags="">
+      <description></description>
+    </Steam>
+    <GameObjects>
+      <GameObject name="Map Plugin" path="Assets/_ModAssets_/Map Plugin.prefab" />
+    </GameObjects>
+    <Assets />
+    <MaterialShaderMap />
+    <Assemblies>
+      <Assembly name="MissileLauncherRemover-Assembly-CSharp.dll" path="Assets/_ModAssets_/MissileLauncherRemover-Assembly-CSharp.dll.bytes" isProjectAssembly="true" />
+    </Assemblies>
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps />
+        <Levels />
+        <Parts />
+        <DesignerPlugins />
+        <MapPlugins>
+          <MapPlugin objectName="Map Plugin" />
+        </MapPlugins>
+        <PersistentObjects />
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>
